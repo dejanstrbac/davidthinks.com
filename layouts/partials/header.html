@@ -15,7 +15,7 @@
   </p>
 
   <nav>
-    <a href="/">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.home_link }}</a>
+    <a href="/{{ .Site.Params.locale }}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.home_link }}</a>
     &nbsp;&middot;&nbsp;
     <a href="/our_mission.html">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.mission_link }}</a>
     &nbsp;&middot;&nbsp;
