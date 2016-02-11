@@ -1,3 +1,8 @@
+<script type="text/javascript">
+  var locale = '{{ .Site.Params.locale }}',
+      localeConfirmCaption = '{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.confirm_caption }}';
+</script>
+
 <div class="grid-100">
   <label class="locale-select">
    <select>

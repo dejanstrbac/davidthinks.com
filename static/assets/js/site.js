@@ -62,8 +62,13 @@ document.addEventListener('DOMContentLoaded', function() {
   var localeSelect = document.querySelectorAll('.locale-select select')[0],
       cookieLocaleValue = Cookies.getItem('locale');
 
-  if (cookieLocaleValue && (cookieLocaleValue !== localeSelect.value))
-    return DavidThinks.redirectToLocale(cookieLocaleValue);
+  if (cookieLocaleValue && (cookieLocaleValue !== localeSelect.value)) {
+    if (window.confirm(localeConfirmCaption)) {
+      return DavidThinks.redirectToLocale(cookieLocaleValue);
+    } else {
+      Cookies.setItem('locale', cookieLocaleValue, Infinity, '/');
+    }
+  }
 
   localeSelect.addEventListener('change', function(ev) {
     DavidThinks.redirectToLocale(this.value, true);
