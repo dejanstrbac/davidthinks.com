@@ -1,0 +1,27 @@
+<div class="grid-100">
+  <label class="locale-select">
+   <select>
+    <option value="en">International</option>
+    <option value="sr" {{if {{ .Site.Params.locale }} === "en" }}selected}}>Србија</option>
+    <option value="it">Italia</option>
+  </select>
+  </label>
+</div>
+
+<header class="grid-100">
+  <p class="logo">
+    <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.logo_text }}</strong>
+    <br/>
+    <span>{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.logo_slogan }}</span>
+  </p>
+
+  <nav>
+    <a href="/">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.home_link }}</a>
+    &nbsp;&middot;&nbsp;
+    <a href="/our_mission.html">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.mission_link }}</a>
+    &nbsp;&middot;&nbsp;
+    <a href="#">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.contribute_link }}</a>
+    &nbsp;&middot;&nbsp;
+    <a href="#">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.subscribe_link }}</a>
+  </nav>
+</header>

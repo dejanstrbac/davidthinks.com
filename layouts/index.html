@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Params.locale }}">
+  <head>
+    {{ partial "meta.html" . }}
+    {{ partial "assets.html" . }}
+  </head>
+  <body>
+    <div class="grid-container">
+      {{ partial "header.html" . }}
+      <article>
+        {{ range first 10 (where .Data.Pages "Section" "article") }}
+          <section class="grid-45 suffix-5">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>&nbsp;<span>{{ .Date.Format "Monday, Jan 2, 2006" }}</span>
+            <p>{{ .Summary }}</p>
+          </section>
+        {{ end }}
+      </article>
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+baseurl = "https://davidthinks.com"
+title = "David Thinks..."
+contentdir = "content/en"
+publishdir = "public/en"
+staticdir = "static"
+uglyURLs = "true"
+
+[params]
+  locale = "en"
+
