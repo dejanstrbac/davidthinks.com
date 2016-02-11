@@ -15,9 +15,9 @@
   </p>
 
   <nav>
-    <a href="/{{ if eq .Site.Params.environment "live" }}{{ .Site.Params.locale }}{{end}}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.home_link }}</a>
+    <a href="{{ if eq .Site.Params.environment "live" }}/{{ .Site.Params.locale }}{{end}}/index.html">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.home_link }}</a>
     &nbsp;&middot;&nbsp;
-    <a href="/{{ .Site.Params.locale }}/our_mission.html">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.mission_link }}</a>
+    <a href="{{ if eq .Site.Params.environment "live" }}/{{ .Site.Params.locale }}{{end}}/our_mission.html">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.mission_link }}</a>
     &nbsp;&middot;&nbsp;
     <a href="#">{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.contribute_link }}</a>
     &nbsp;&middot;&nbsp;

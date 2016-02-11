@@ -3,7 +3,7 @@ title = "David Thinks..."
 contentdir = "content/sr"
 publishdir = "public/sr"
 staticdir = "static"
-uglyURLs = "false"
+uglyURLs = "true"
 
 [params]
   locale = "sr"
