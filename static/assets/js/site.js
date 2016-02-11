@@ -50,7 +50,7 @@ var DavidThinks = {
     if (typeof setCookie === 'undefined')
       setCookie = false;
     if (setCookie)
-      Cookies.setItem('locale', locale, Infinity, '/');
+      Cookies.setItem('locale', locale, Infinity, '/', '*');
     window.location.href = '/' + locale + '/index.html';
   }
 };
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.confirm(localeConfirmCaptions[cookieLocaleValue])) {
       return DavidThinks.redirectToLocale(cookieLocaleValue);
     } else {
-      Cookies.setItem('locale', currentLocale, Infinity, '/');
+      Cookies.setItem('locale', currentLocale, Infinity, '/', '*');
     }
   }
 
