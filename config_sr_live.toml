@@ -1,4 +1,4 @@
-baseurl = "https://davidthinks.com"
+baseurl = "https://davidthinks.com/sr"
 title = "David Thinks..."
 contentdir = "content/sr"
 publishdir = "public/sr"
@@ -7,4 +7,4 @@ uglyURLs = "true"
 
 [params]
   locale = "sr"
-  environment = "local"
+  environment = "live"

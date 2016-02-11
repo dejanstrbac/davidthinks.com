@@ -13,11 +13,11 @@ copy_assets:
 	cp static/index.html static/robots.txt public/
 
 build_en:
-	hugo --config=config_en.toml --baseURL="https://davidthinks.com/en" && \
+	hugo --config=config_en_live.toml && \
 	rm -rf public/en/assets
 
 build_sr:
-	hugo --config=config_sr.toml --baseURL="https://davidthinks.com/sr" && \
+	hugo --config=config_sr_live.toml && \
 	rm -rf public/sr/assets
 
 upload:
