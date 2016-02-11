@@ -46,15 +46,11 @@ section span { display: inline-block; font-size: 0.8em; color: #8a8a8a; backgrou
 @media (min-width: 767px) {
   .illustration { float: right; margin-right: -30vw; width: 27vw; clear: both; }
   .illustration img { transition: -webkit-transform 0.25s ease; transition: transform 0.25s ease; }
-  .illustration img:active { -webkit-transform: scale(2); transform: scale(2); box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.2); }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .illustration { width: 35vw; margin-right: -37vw; }
-  .illustration img:active { -webkit-transform: scale(3); transform: scale(3); }
 }
-
-
 
 @media (min-width: 1025px) {
   a:hover { text-decoration: underline; }
