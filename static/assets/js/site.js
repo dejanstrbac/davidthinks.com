@@ -50,7 +50,7 @@ var DavidThinks = {
     if (typeof setCookie === 'undefined')
       setCookie = false;
     if (setCookie)
-      Cookies.setItem('locale', locale, Infinity, '/', '*');
+      Cookies.setItem('locale', locale, Infinity, '/', $.hostname);
     window.location.href = '/' + locale + '/index.html';
   }
 };
@@ -62,16 +62,16 @@ var DavidThinks = {
  */
 document.addEventListener('DOMContentLoaded', function() {
   var localeSelect = document.querySelectorAll('.locale-select SELECT')[0],
-      currentLocale = localeSelect.value,
       cookieLocaleValue = Cookies.getItem('locale');
 
   // If there is a saved locale and it differs from the current,
   // ask if we should switch
-  if (cookieLocaleValue && (cookieLocaleValue !== currentLocale)) {
-    if (window.confirm(localeConfirmCaptions[cookieLocaleValue])) {
+  if (cookieLocaleValue && (cookieLocaleValue !== $.locale)) {
+    if (window.confirm($.localeConfirmCaptions[cookieLocaleValue])) {
       return DavidThinks.redirectToLocale(cookieLocaleValue);
     } else {
-      Cookies.setItem('locale', currentLocale, Infinity, '/', '*');
+
+      Cookies.setItem('locale', $.locale, Infinity, '/', $.hostname);
     }
   }
 

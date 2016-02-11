@@ -4,8 +4,10 @@ contentdir = "content/en"
 publishdir = "public/en"
 staticdir = "static/en"
 uglyURLs = "true"
+noTimes = "true"
 
 [params]
+  hostname = "davidthinks.com"
   locale = "en"
   environment = "live"
 

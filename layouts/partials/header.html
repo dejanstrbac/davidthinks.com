@@ -1,15 +1,18 @@
 <script type="text/javascript">
-  var locale = '{{ .Site.Params.locale }}',
-      localeConfirmCaptions = {
-        en: '{{ ( index $.Site.Data.translations "en" ).header.confirm_caption }}',
-        sr: '{{ ( index $.Site.Data.translations "sr" ).header.confirm_caption }}'
+  var $ = {
+        hostname: '{{ .Site.Params.hostname }}',
+        locale:   '{{ .Site.Params.locale }}',
+        localeConfirmCaptions: {
+          en: '{{ ( index $.Site.Data.translations "en" ).header.confirm_caption }}',
+          sr: '{{ ( index $.Site.Data.translations "sr" ).header.confirm_caption }}'
+        }
       };
 </script>
 
 <div class="grid-100">
   <label class="locale-select">
    <select>
-    <option value="en" {{ if eq .Site.Params.locale "en" }}selected{{ end }}>International</option>
+    <option value="en" {{ if eq .Site.Params.locale "en" }}selected{{ end }}>Global + English</option>
     <option value="sr" {{ if eq .Site.Params.locale "sr" }}selected{{ end }}>Србија</option>
   </select>
   </label>

@@ -4,8 +4,10 @@ contentdir = "content/en"
 publishdir = "public/en"
 staticdir = "static"
 uglyURLs = "true"
+noTimes = "true"
 
 [params]
+  hostname = "localhost"
   locale = "en"
   environment = "local"
 
