@@ -2,7 +2,7 @@ baseurl = "https://davidthinks.com/sr"
 title = "David Thinks..."
 contentdir = "content/sr"
 publishdir = "public/sr"
-staticdir = "static"
+staticdir = "static/sr"
 uglyURLs = "true"
 
 [params]
