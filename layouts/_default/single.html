@@ -18,14 +18,5 @@
 
       {{ partial "footer.html" . }}
     </div>
-
-    <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", function() {
-        [].slice.call(document.querySelectorAll( 'article a' )).forEach(function(anc) {
-          if (anc.hostname !== window.location.hostname)
-            anc.target = '_blank';
-        });
-      }, false);
-    </script>
   </body>
 </html>

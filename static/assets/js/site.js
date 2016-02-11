@@ -56,22 +56,35 @@ var DavidThinks = {
 };
 
 
+
+/*
+ * On load, execute
+ */
 document.addEventListener('DOMContentLoaded', function() {
-  // Changing the dropdown will automatically switch the language
-  // and redirect to the cover page.
-  var localeSelect = document.querySelectorAll('.locale-select select')[0],
+  var localeSelect = document.querySelectorAll('.locale-select SELECT')[0],
+      currentLocale = localeSelect.value,
       cookieLocaleValue = Cookies.getItem('locale');
 
-  if (cookieLocaleValue && (cookieLocaleValue !== localeSelect.value)) {
-    if (window.confirm(localeConfirmCaption)) {
+  // If there is a saved locale and it differs from the current,
+  // ask if we should switch
+  if (cookieLocaleValue && (cookieLocaleValue !== currentLocale)) {
+    if (window.confirm(localeConfirmCaptions[cookieLocaleValue])) {
       return DavidThinks.redirectToLocale(cookieLocaleValue);
     } else {
-      Cookies.setItem('locale', cookieLocaleValue, Infinity, '/');
+      Cookies.setItem('locale', currentLocale, Infinity, '/');
     }
   }
 
+  // Changing the dropdown will automatically switch the language
+  // and redirect to the cover page.
   localeSelect.addEventListener('change', function(ev) {
     DavidThinks.redirectToLocale(this.value, true);
+  });
+
+  // Open all external links in a new window (tab)
+  [].slice.call(document.getElementsByTagName('A')).forEach(function(anc) {
+    if (anc.hostname !== window.location.hostname)
+      anc.target = '_blank';
   });
 
 }, false);

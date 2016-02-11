@@ -1,6 +1,9 @@
 <script type="text/javascript">
   var locale = '{{ .Site.Params.locale }}',
-      localeConfirmCaption = '{{ ( index $.Site.Data.translations $.Site.Params.locale ).header.confirm_caption }}';
+      localeConfirmCaptions = {
+        en: '{{ ( index $.Site.Data.translations "en" ).header.confirm_caption }}',
+        sr: '{{ ( index $.Site.Data.translations "sr" ).header.confirm_caption }}'
+      };
 </script>
 
 <div class="grid-100">
