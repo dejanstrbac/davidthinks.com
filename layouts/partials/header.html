@@ -1,9 +1,8 @@
 <div class="grid-100">
   <label class="locale-select">
    <select>
-    <option value="en">International</option>
-    <option value="sr" {{if {{ .Site.Params.locale }} === "en" }}selected}}>Србија</option>
-    <option value="it">Italia</option>
+    <option value="en" {{ if eq .Site.Params.locale "en" }}selected{{ end }}>International</option>
+    <option value="sr" {{ if eq .Site.Params.locale "sr" }}selected{{ end }}>Србија</option>
   </select>
   </label>
 </div>

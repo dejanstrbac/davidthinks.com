@@ -21,7 +21,7 @@ build_sr:
 	rm -rf public/sr/assets
 
 upload:
-	AWS_PROFILE=davidthinks aws s3 sync public s3://davidthinks.com --delete --acl public-read --exclude "*/.DS_Store" --debug
+	AWS_PROFILE=davidthinks aws s3 sync public s3://davidthinks.com --delete --acl public-read --exclude "*/.DS_Store"
 
 invalidate_caches:
-	AWS_PROFILE=davidthinks aws cloudfront create-invalidation --distribution-id=E1YN7RZ3VK5CXI --paths=/* --output=text --debug
+	AWS_PROFILE=davidthinks aws cloudfront create-invalidation --distribution-id=E1YN7RZ3VK5CXI --paths=/* --output=text
