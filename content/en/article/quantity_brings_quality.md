@@ -2,6 +2,7 @@
 date = "2016-02-08T01:13:29+01:00"
 draft = false
 title = "Quantity Brings Quality"
+sr_alternate = "квалитет_следи_количину.html"
 +++
 
 <p class="illustration"><img src="/assets/img/wall-relief-64965_640.jpg"/></p>
