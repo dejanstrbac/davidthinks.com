@@ -28,7 +28,6 @@ header p span { padding-left: 20px; color: #8a8a8a; font-size: 0.9em; font-style
 section { margin-bottom: 1em; }
 section a { font-size: 1.1em; text-decoration: none; font-weight: bold; }
 section p { font-size: 0.9em; color: #8a8a8a; font-style: italic; padding-left: 20px; }
-section span { display: inline-block; font-size: 0.8em; color: #8a8a8a; background-color: #f8f8f8; padding: 2px; border-radius: 4px; margin-left: 5px; }
 
 footer { padding: 50px 0 50px; color: #cacaca; font-size: 0.8em; }
 
