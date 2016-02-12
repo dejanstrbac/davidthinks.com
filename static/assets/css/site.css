@@ -13,7 +13,10 @@ article h3 { font-size: 1.1em; }
 article h4 { font-size: 1em; }
 
 blockquote { background: #fcfcfc; border-radius: 4px; border-left: 5px solid #f2f2f2; margin: 1em 0; padding: 0.5em 0.5em 0.5em 1em; quotes: "\201C""\201D""\2018""\2019"; font-style: italic; font-size: 0.95em; color: #6a6a6a;}
-blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-height: 0.5em; float: left; }
+blockquote:before,
+blockquote:after { color: #ccc; font-size: 2em; line-height: 0.5em; }
+blockquote:before { content: open-quote; float: left; margin-left: -0.25em;}
+blockquote:after { content: close-quote; float: right; }
 
 .locale-select { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAAf0lEQVQIHQXBQQYCURgA4I9uMKvO0A0iYhhatRqiY7QaYmg15xniEUMniYiIiOGtHn/fB+yMspfRDqD3Mfg5aGUdNIq9sxWOPoqaJGQXCyezEBKzLIFZCOHL11atwiCEYuamNQgTCOFO42EtJDApNtB7KipLRy8dQOPq7W20hT8MJjU+Xts+9AAAAABJRU5ErkJggg==");
                  background-position: left center; background-repeat: no-repeat; padding-left: 18px; }
