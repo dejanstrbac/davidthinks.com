@@ -8,7 +8,7 @@ title = "The Herd Mentality on Valentine's Day"
 
 They say Valentine's Day is the time to celebrate romance and love.
 
-Unfortunatelly, just as Christmas, Valentine's Day as we know it is just commercial phenomenon, and it comes with muddled origins.
+Unfortunatelly, just as Christmas, Valentine's Day as we know it today is mostly just a commercial phenomenon, and it comes with muddled origins.
 
 While its meaning is fuzzier with every generation, rarely does one know the actual reason for celebration and gift giving. Gods Cupid, Eros, arrows hearts and flowers rush to mind. However, all those images have been planted in us by
 the creatives of some advertising campaigns.
@@ -24,7 +24,6 @@ On Valentine's Day, we fall prеy to the herd mentality. We act more on our inst
 In [The Crowd: A Study of the Popular Mind](http://www.amazon.com/Crowd-Study-Popular-Mind/dp/1502303264/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1455227593&sr=8-1), Gustav Le Bon concludes:
 
 > an individual immersed for some length of time in a crowd soon finds himself - either in consequence of magnetic influence given out by the crowd or from some other cause of which we are ignorant - in a special state, which much resembles the state of fascination in which the hypnotized individual finds himself in the hands of the hypnotizer...
-
 
 ## The Actual Origins
 

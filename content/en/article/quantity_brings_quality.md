@@ -17,3 +17,7 @@ David Bayles and Ted Orland write in [Art and Fear](http://www.amazon.com/Art-Fe
 > Well, came grading time and a curious fact emerged: the works of highest quality were all produced by the group being graded for quantity.
 >
 > It seems that while the “quantity” group was busily churning out piles of work—and learning from their mistakes — the “quality” group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.
+
+In other words, quality is exclusively a consequence of practical experience.
+
+But, how does one recognize quality?
