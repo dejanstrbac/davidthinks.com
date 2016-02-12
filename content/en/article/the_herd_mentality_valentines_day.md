@@ -4,7 +4,7 @@ draft = false
 title = "The Herd Mentality on Valentine's Day"
 +++
 
-<p class="illustration"><img src="/assets/img/angel-930897_640.png"/></p>
+<p class="illustration"><img src="/assets/img/angel-930897_640.jpg"/></p>
 
 They say Valentine's Day is the time to celebrate romance and love.
 
