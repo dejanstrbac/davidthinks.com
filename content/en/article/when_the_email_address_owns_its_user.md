@@ -1,7 +1,8 @@
 +++
 date = "2016-02-12T01:13:29+01:00"
 draft = false
-title = "When Email Address Owns The User"
+title = "When The Email Address Owns Its User"
+sr_alternate = "када_електронска_пошта_поседује_корисника.html"
 +++
 
 <p class="illustration"><img src="/assets/img/mail-429296_640.jpg"/></p>
