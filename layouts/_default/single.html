@@ -2,9 +2,8 @@
 <html lang="{{ .Site.Params.locale }}">
   <head>
     {{ partial "meta.html" . }}
-    {{ partial "assets.html" . }}
+    {{ partial "styles.css.html" . }}
   </head>
-
   <body>
     <div class="grid-container">
       {{ partial "header.html" . }}
@@ -15,8 +14,8 @@
       <article class="grid-55">
         {{ .Content }}
       </article>
-
       {{ partial "footer.html" . }}
     </div>
+    {{ partial "scripts.js.html" . }}
   </body>
 </html>

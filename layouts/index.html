@@ -4,8 +4,7 @@
     {{ partial "meta.html" . }}
     {{ if ne .Site.Params.locale "sr" }}<link rel="alternate" hreflang="sr" href="https://davidthinks.com/sr/index.html" />{{ end }}
     {{ if ne .Site.Params.locale "en" }}<link rel="alternate" hreflang="en" href="https://davidthinks.com/en/index.html" />{{ end }}
-
-    {{ partial "assets.html" . }}
+    {{ partial "styles.css.html" . }}
   </head>
   <body>
     <div class="grid-container">
@@ -20,5 +19,6 @@
       </article>
       {{ partial "footer.html" . }}
     </div>
+    {{ partial "scripts.js.html" . }}
   </body>
 </html>
