@@ -22,6 +22,6 @@ sr_alternate = "квалитет_следи_количину.html"
 
 In other words, quality is exclusively a consequence of practical experience.
 
-But, how does one recognise quality?
+But, how much practice is sufficent and how does one finally recognise quality?
 
 [comment]: # (Malcolm gladwell 10.000 hours rule)

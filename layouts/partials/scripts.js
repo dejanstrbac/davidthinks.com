@@ -1,3 +1,12 @@
+var $ = {
+  hostname: '{{ .Site.Params.hostname }}',
+  locale:   '{{ .Site.Params.locale }}',
+  localeConfirmCaptions: {
+    en: '{{ ( index $.Site.Data.translations "en" ).header.confirm_caption }}',
+    sr: '{{ ( index $.Site.Data.translations "sr" ).header.confirm_caption }}'
+  }
+};
+
 var Cookies = {
   getItem: function (sKey) {
     if (!sKey) { return null; }

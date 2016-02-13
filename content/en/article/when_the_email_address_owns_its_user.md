@@ -40,8 +40,6 @@ One reason is certainly apparent simplicity. The other, more interesting, are in
 
 *Rolf Dobelli* observed Argumentum ad populum and other similar fallacies in his highly recommended book [The Art of Thinking Clearly](http://www.amazon.com/The-Thinking-Clearly-Rolf-Dobelli/dp/0062219693).
 
-## Conclusion
-
 Free email used to be a popular choice a decade ago, when hosting own email addresses was expensive, complicated and mostly reserved for big companies. Today however, situation has drastically changed. Taking full control of personal communications is easy and monthly costs are comparable to that of a cup of coffee.
 
 Most important, we should trust our own reason rather then rely on popular _(non)_ choices.
