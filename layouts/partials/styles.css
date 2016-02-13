@@ -28,7 +28,7 @@ blockquote:after { content: close-quote; float: right; }
 .illustration span { font-size: 0.7em; font-style: italic; color: #9a9a9a; text-transform: lowercase; }
 .illustration img { width: 100%; border-radius: 4px; margin-bottom: 2px; display: inline-block; }
 
-header { padding: 20px 0 50px; }
+header { padding: 50px 0; }
 header p span { padding-left: 20px; color: #8a8a8a; font-size: 0.9em; font-style: italic; }
 
 section { margin-bottom: 1em; }
