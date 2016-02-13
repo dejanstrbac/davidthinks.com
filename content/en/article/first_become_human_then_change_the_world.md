@@ -44,7 +44,7 @@ To go after a change in the world, the individual must start from oneself. As Ma
 
 > Be the change you wish to see in the world.
 
-World by itself has no adjectives, it simply - is. All beauty and ugliness of this world begin and end within the eye of the observer. After all, the person itself chooses what will be seen or understood based on existing beliefs and prejudices. One will see evil where one sees good or vice versa. And so each aware human believes in doing the best possible - but always according to some personal measures.
+World by itself has no adjectives, it simply - is. All beauty and ugliness of this world begins and ends within the eye of the observer. After all, the person itself chooses what will be seen or understood based on existing beliefs and prejudices. One sees evil where one good ad vice versa. Each clear-minded human believes in doing the best possible - but always according to some personal measures.
 
 Most notorious persons in human history actually believed they were doing good. The problem is that they always wanted the best for themselves, conciously or unconciously. Too bad that the same, which today do not deserve even being mentioned by name, did not use own passion and strength in benevolent purposes to leave this world at least a bit better than how they found it.
 
