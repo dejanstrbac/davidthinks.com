@@ -2,8 +2,8 @@
 date = "2016-02-13T01:13:29+01:00"
 draft = false
 title = "First Become Human, Then Change The World"
-meta_description = "Да би неко свет променио, мора променити појединце а неопходно је почети од самог себе. Без човекољубивих врлина, може се само већа штета направити."
-en_alternate = ""
+meta_description = "To change the world, one must start from oneself. Without benevolence, only greater harm can be brought."
+sr_alternate = "прво_постани_човек_а_онда_мењај_свет.html"
 +++
 
 <p class="illustration"><img src="/assets/img/arch-1041135_640.jpg"/></p>
