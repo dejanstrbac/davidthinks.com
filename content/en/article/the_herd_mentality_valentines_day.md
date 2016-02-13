@@ -2,6 +2,7 @@
 date = "2016-02-11T01:13:29+01:00"
 draft = false
 title = "The Herd Mentality on Valentine's Day"
+meta_description = ""
 sr_alternate = "менталитет_руље_дан_заљубљених.html"
 +++
 

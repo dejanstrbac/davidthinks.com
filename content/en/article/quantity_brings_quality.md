@@ -2,6 +2,7 @@
 date = "2016-02-08T01:13:29+01:00"
 draft = false
 title = "Quantity Brings Quality"
+meta_description = "It is widely thought that quality beats quantity. However, it is rarely understood that quantity leads to quality. Long practice and accumulated experience have no substitute."
 sr_alternate = "квалитет_следи_количину.html"
 +++
 
@@ -22,3 +23,5 @@ sr_alternate = "квалитет_следи_количину.html"
 In other words, quality is exclusively a consequence of practical experience.
 
 But, how does one recognise quality?
+
+[comment]: # (Malcolm gladwell 10.000 hours rule)

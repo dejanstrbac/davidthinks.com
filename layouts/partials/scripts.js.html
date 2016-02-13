@@ -1,7 +1,4 @@
 <script type="text/javascript">
-  /*
-   * Libraries
-   */
   var Cookies = {
     getItem: function (sKey) {
       if (!sKey) { return null; }
@@ -42,10 +39,6 @@
     }
   };
 
-
-  /*
-   * Site functions
-   */
   var DavidThinks = {
     redirectToLocale: function (locale, setCookie) {
       if (typeof setCookie === 'undefined')
@@ -57,16 +50,10 @@
   };
 
 
-
-  /*
-   * Execute On Load
-   */
   document.addEventListener('DOMContentLoaded', function() {
     var localeSelect = document.querySelectorAll('.locale-select SELECT')[0],
         cookieLocaleValue = Cookies.getItem('locale');
 
-    // If there is a saved locale and it differs from the current,
-    // ask if we should switch
     if (cookieLocaleValue && (cookieLocaleValue !== $.locale)) {
       if (window.confirm($.localeConfirmCaptions[cookieLocaleValue])) {
         return DavidThinks.redirectToLocale(cookieLocaleValue);
@@ -76,17 +63,13 @@
       }
     }
 
-    // Changing the dropdown will automatically switch the language
-    // and redirect to the cover page.
     localeSelect.addEventListener('change', function(ev) {
       DavidThinks.redirectToLocale(this.value, true);
     });
 
-    // Open all external links in a new window (tab)
     [].slice.call(document.getElementsByTagName('A')).forEach(function(anc) {
       if (anc.hostname !== window.location.hostname)
         anc.target = '_blank';
     });
-
   }, false);
 </script>

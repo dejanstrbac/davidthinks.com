@@ -2,6 +2,7 @@
 date = "2016-02-12T01:13:29+01:00"
 draft = false
 title = "When The Email Address Owns Its User"
+meta_description = ""
 sr_alternate = "када_електронска_пошта_поседује_корисника.html"
 +++
 

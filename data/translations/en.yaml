@@ -6,4 +6,5 @@ header:
   subscribe_link: Subscribe
   confirm_caption: Would you like to change the language to English?
 footer:
-  copyright: Copyright © davidthinks.com 2016 All Rights Reserved
+  copyright: Copyright © davidthinks.com 2016
+  rights_notice: All Rights Reserved
