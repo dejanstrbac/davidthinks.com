@@ -6,9 +6,9 @@ meta_description = "To change the world, one must start from oneself. Without be
 sr_alternate = "прво_постани_човек_а_онда_мењај_свет.html"
 +++
 
-<p class="illustration"><img src="/assets/img/arch-1041135_640.jpg"/></p>
+<p class="illustration"><img src="/assets/img/hands-699486_640.jpg"/></p>
 
-There is a lot of talk about world-changing ideas nowadays, so many jump to daydreaming. However, it was never ideas that changed the world, but real individuals of flesh and bones. These persevering enlighteners sailed great hassles and some paid with their lives in order to change well established beliefs.
+There is a lot of talk about world-changing ideas nowadays, so many jump to daydreaming. However, it was never ideas that changed the world, but real individuals of flesh and bone. These persevering enlighteners sailed great hassles and some paid with their lives in order to change well established beliefs.
 
 The idea was never that important as much good insight into the reality of the big picture, benevolence, perseverance and strong beliefs as guidance. All those are well known traits of enlighteners we know from history.
 
@@ -42,7 +42,7 @@ The question arises - where is the time for unrestricted creativity in such soci
 
 To go after a change in the world, the individual must start from oneself. As Mahatma Gandhi wisely said:
 
-> Be the change you want to see in the world.
+> Be the change you wish to see in the world.
 
 World by itself has no adjectives, it simply - is. All beauty and ugliness of this world begin and end within the eye of the observer. After all, the person itself chooses what will be seen or understood based on existing beliefs and prejudices. One will see evil where one sees good or vice versa. And so each aware human believes in doing the best possible - but always according to some personal measures.
 
