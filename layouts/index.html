@@ -11,7 +11,7 @@
       {{ partial "header.html" . }}
       <article>
         {{ range first 10 (where .Data.Pages "Section" "article") }}
-          <section class="grid-45 suffix-5">
+          <section class="grid-65 suffix-35">
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             <p>{{ .Summary }}...</p>
           </section>

@@ -1,5 +1,3 @@
 <footer class="grid-100">
-  {{ ( index $.Site.Data.translations $.Site.Params.locale ).footer.copyright }}
-  <br/>
-  {{ ( index $.Site.Data.translations $.Site.Params.locale ).footer.rights_notice }}
+  {{ ( index $.Site.Data.translations $.Site.Params.locale ).footer.copyright | safeHTML }}
 </footer>
