@@ -26,7 +26,7 @@ blockquote:after { content: close-quote; float: right; }
 
 .illustration { margin: 1em 0; text-align: right;  }
 .illustration span { font-size: 0.7em; font-style: italic; color: #9a9a9a; text-transform: lowercase; }
-.illustration img { width: 100%; border-radius: 4px; margin-bottom: 2px; display: inline-block; }
+.illustration img { width: 100%; margin-bottom: 2px; display: inline-block; }
 
 header { padding: 50px 0; }
 header p span { padding-left: 20px; color: #8a8a8a; font-size: 0.9em; font-style: italic; }
@@ -39,15 +39,6 @@ footer { padding: 50px 0 50px; color: #cacaca; font-size: 0.8em; }
 
 @media (max-width: 767px) {
   header { padding: 20px 0 50px; }
-}
-
-@media (min-width: 767px) {
-  .illustration { float: right; margin-right: -30vw; width: 27vw; clear: both; }
-  .illustration img { transition: -webkit-transform 0.25s ease; transition: transform 0.25s ease; }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .illustration { width: 35vw; margin-right: -37vw; }
 }
 
 @media (min-width: 1025px) {

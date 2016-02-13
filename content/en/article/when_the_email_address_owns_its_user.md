@@ -6,8 +6,6 @@ meta_description = ""
 sr_alternate = "када_електронска_пошта_поседује_корисника.html"
 +++
 
-<p class="illustration"><img src="/assets/img/mail-429296_640.jpg"/></p>
-
 Most popular email services nowadays are provided free of charge and boast amazing number of users. But as the Internet adage goes:
 
 > If you are not paying for a product, you are the product.

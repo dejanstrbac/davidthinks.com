@@ -6,8 +6,6 @@ meta_description = ""
 sr_alternate = "менталитет_руље_дан_заљубљених.html"
 +++
 
-<p class="illustration"><img src="/assets/img/angel-930897_640.jpg"/></p>
-
 They say Valentine's Day is the time to celebrate romance and love.
 
 Unfortunately, just as Christmas, Valentine's Day as we know it today is mostly just a commercial phenomenon, and it comes with muddled origins.

@@ -6,8 +6,6 @@ meta_description = "To change the world, one must start from oneself. Without be
 sr_alternate = "прво_постани_човек_а_онда_мењај_свет.html"
 +++
 
-<p class="illustration"><img src="/assets/img/hands-699486_640.jpg"/></p>
-
 There is a lot of talk about world-changing ideas nowadays, so many jump to daydreaming. However, it was never ideas that changed the world, but real individuals of flesh and bone. These persevering enlighteners sailed great hassles and some paid with their lives in order to change well established beliefs.
 
 The idea was never that important as much good insight into the reality of the big picture, benevolence, perseverance and strong beliefs as guidance. All those are well known traits of enlighteners we know from history.
@@ -34,8 +32,6 @@ Capitalism is the de-facto established principle of the most developed world of 
 
 When (and if) those children get jobs, they work to survive - pay expenses necessary to continue working. Personal life narrows down to the difference in the time and money that remains. To paint a different reality and encourage workers, many twist the truth with newly coined terms such as career, otherwise known carrot on a stick.
 
-<p class="illustration"><img src="/assets/img/finite_infinite_games.jpg"/></p>
-
 It souns just unreal as a child game, especially reading amazing James Carse's [Finite and infinite games](http://www.amazon.com/Finite-Infinite-Games-James-Carse/dp/1476731713), a book worth reading over and over.
 
 The question arises - where is the time for unrestricted creativity in such society, when there is not even time for free thoughts? Is it to surprise then that true englihteners are long gone?
@@ -53,3 +49,5 @@ A wise man will recognise evil in own eyes, correct beliefs and kill prejudices 
 The world will always need changes and people willing to conduct them. Future thinkerers are born every moment which will see the world differently than then previous.
 
 However, before getting carried away for such ludicrous and highly noble task, one must question self for the neccessary virtues. For whom shell the world change? Selfishly for own glory and well-being or for others for their chance to a slightly better world?
+
+[comment]: # (steve harisson: Changing the World Is the Only Fit Work for a Grown Man)

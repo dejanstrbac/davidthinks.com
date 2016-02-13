@@ -6,8 +6,6 @@ meta_description = "It is widely thought that quality beats quantity. However, i
 sr_alternate = "квалитет_следи_количину.html"
 +++
 
-<p class="illustration"><img src="/assets/img/wall-relief-64965_640.jpg"/></p>
-
 *David Bayles* and *Ted Orland* write in [Art and Fear](http://www.amazon.com/Art-Fear-Observations-Rewards-Artmaking/dp/0961454733):
 
 > All those on the left side of the studio, he said, would be graded solely on the quantity of work they produced, all those on the right solely on its quality.
